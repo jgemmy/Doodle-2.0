@@ -1,0 +1,245 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #3300cc;
+	text-align: center;
+}
+
+h2 {
+	font-family: Georgia, serif;
+	line-height: 1em;
+	color: #1E88E5 !important;
+	margin: -10px;
+	padding-top: 10px;
+	margin-bottom: 2px;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 47px;
+	text-align: center;
+	background-color: #90CAF9;
+}
+
+.gwt-TabBar {
+	background-color: #90CAF9 !important;
+}
+
+.gwt-TabBar .gwt-TabBarItem-selected {
+	background-color: #BBDEFB
+ !important;
+ 	
+}
+element.style{
+	background-color: #E3F2FD !important;
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	margin: 0;
+	padding: 15px;
+	color: white !important;
+	background-color: #2196F3 !important;
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+/*_________________________TABS_______________________________*/
+.tabLeft {
+	background-color: #90CAF9 !important;
+	position: relative !important;
+}
+
+.tabCenter {
+	background-color: #64B5F6 !important;
+	position: relative !important;
+	border-width: 0px 1px 1px;
+}
+
+.tabRight {
+	background-color: #90CAF9 !important;
+	position: relative !important;
+}
+
+.tabKey {
+	position: relative !important;
+	background: white !important;
+}
+
+/*_________________________TEXTBOX_______________________________*/
+.gwt-TextBox {
+	text-align: center;
+	box-sizing: border-box !important;
+	display: block !important;
+	width: 75% !important;
+	height: 5px !important;
+	padding: 11px 7px !important;
+	padding-right: 33px !important;
+	background-color: #E3F2FD !important;
+	font-size: 1.1em !important;
+	color: #666 !important;
+	border: 1px solid #90CAF9 !important;
+	border-bottom-color: #90CAF9 !important;
+	border-radius: 1px !important;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 6px #f0f0f0
+		!important;
+	transition: all 0.4s linear !important;
+}
+
+.gwt-TextBox:FOCUS {
+	width: 85% !important;
+	height: 8px !important;
+	color: #000 !important;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 0 6px #e0e0e0
+		!important;
+}
+
+.gwt-DateBox {
+	text-align: center;
+	box-sizing: border-box !important;
+	display: block !important;
+	width: 75% !important;
+	height: 5px !important;
+	padding: 11px 7px !important;
+	padding-right: 33px !important;
+	background-color: #fff !important;
+	font-size: 1.1em !important;
+	background-color: #E3F2FD !important;
+	color: #666 !important;
+	border: 1px solid #90CAF9 !important;
+	border-bottom-color: #90CAF9 !important;
+	border-radius: 1px !important;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 6px #f0f0f0
+		!important;
+	transition: all 0.4s linear !important;
+}
+
+.gwt-PasswordTextBox {
+	text-align: center;
+	box-sizing: border-box !important;
+	display: block !important;
+	width: 75% !important;
+	height: 5px !important;
+	padding: 11px 7px !important;
+	padding-right: 33px !important;
+	background-color: #fff !important;
+	font-size: 1.1em !important;
+	background-color: #E3F2FD !important;
+	color: #666 !important;
+	border: 1px solid #90CAF9 !important;
+	border-bottom-color: #90CAF9 !important;
+	border-radius: 1px !important;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 6px #f0f0f0
+		!important;
+	transition: all 0.4s linear !important;
+}
+
+.gwt-PasswordTextBox:HOVER {
+	width: 85% !important;
+	height: 8px !important;
+	color: #000 !important;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 0 6px #e0e0e0
+		!important;
+}
+
+/*_________________________TABELLE_______________________________*/
+.tables {
+	border-radius: 25px !important;
+	color: #4b4a4a;
+	text-shadow: #ddf 1px 1px 0;
+	overflow: hidden;
+}
+
+.gwt-TabPanelBottom {
+	border-width: 0px !important;
+	padding: 0px !important;
+}
+
+.gwt-TabPanel {
+	
+}
+
+/*_________________________LABEL_______________________________*/
+.gwt-Label {
+	-webkit-border-radius: 22px !important;
+	-moz-border-radius: 22px !important;
+	border-radius: 22px !important;
+	font-family: 'Cinzel', serif;
+	font-style: normal !important;
+	font-weight: 400 !important;
+	font-size: 15px !important; <
+	link href='http: //fonts.googleapis.com/css?family=Salsa|Cinzel ' rel='
+		stylesheet ' type=' text/css'> important;
+}
+
+/*_________________________BOTTONI_______________________________*/
+.iscriviti {
+	position: fixed !important;
+	padding: 2px;
+	margin-left: -20px;
+}
+
+.gwt-Button {
+	background: #3498db !important;
+	background-image: -webkit-linear-gradient(top, #3498db, #156fa6);
+	background-image: -moz-linear-gradient(top, #3498db, #156fa6);
+	background-image: -ms-linear-gradient(top, #3498db, #156fa6);
+	background-image: -o-linear-gradient(top, #3498db, #156fa6);
+	background-image: linear-gradient(to bottom, #3498db, #156fa6);
+	-webkit-border-radius: 55;
+	-moz-border-radius: 55;
+	border-radius: 55px;
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.gwt-Button:hover {
+	background: #3cb0fd !important;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+.gwt-Button:active {
+	position: relative !important;
+	top: 1px !important;
+}
+
+.panel {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	height: 100%;
+	border: 10px solid DarkSlateGray !important;
+	-moz-border-radius: 25px !important;
+	-webkit-border-radius: 25px !important;
+	border-radius: 25px !important;
+	background-color: DarkSlateGray !important;
+}
+
+/*LOGOUT*/

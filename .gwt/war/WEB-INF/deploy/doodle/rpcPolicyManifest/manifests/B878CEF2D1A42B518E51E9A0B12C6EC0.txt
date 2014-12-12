@@ -1,0 +1,2 @@
+serviceClass: com.sweng.doodle.client.GreetingService
+path: 10E6E638FFCD9D9A0C71B6362BD38E8C.gwt.rpc

@@ -1,0 +1,42 @@
+\chapter{Scenari}
+
+\begin{enumerate}
+\item L'applicazione deve poter registrare nuovi utenti ,oltre a quelli registrati, e fare delle ricerche su utenti già registrati:
+\begin{itemize}
+\item Il sistema richiede le credenziali d accesso all'utente se questo è registrato;
+\item Se l'utente è registrato può procedere con l'accesso;
+\item Se l'utente vuole registrarsi all'applicazione fornisce i dati personali;
+\item I dati personali richiesti sono: nome, nickname, password ed email (opzionale);
+\item Una volta registrato l'utente non potrà più modificare i propri dati;
+\item Non è previsto nessun meccanismo di recupero della password; 
+\end{itemize}
+\item L'applicazione permetterà un meccanismo di autenticazione degli utenti:
+\begin{itemize}
+\item L'utente fornisce le proprie credenziali d'accesso (nickname e password) al sistema;
+\item Il sistema concede l'accesso, se l'utente è stato riconosciuto;
+\item Dopo aver effettuato l'accesso, l'utente/amministratore vede elencati tutti gli eventi da lui creati;
+\item L'utente/amministratore può in ogni momento chiudere l'evento da lui creato eventualmente fornendo i motivi;
+\item L'utente/amministratore può in ogni momento cancellare il sondaggio da lui creato rendendolo inaccessibile.
+\end{itemize}
+\item L'utente registrato all'applicazione deve poter creare e gestire eventi :
+\begin{itemize}
+\item L' utente fornisce i dati necessari e opzionali alla creazione dell'evento;
+\item I dati necessari sono: nome dell'evento e opzioni di scelta (giorni e orari);
+\item I dati opzionali sono: luogo dell'evento e descrizione dell'evento;
+\item Durante la creazione di un evento, ogni opzione di scelta deve essere cancellabile o modificabile;
+\item Una volta che l'evento è stato creato, non è più possibile modificarlo;
+\item Al termine della fase di creazione il sistema comunica un identificatore univoco dell'evento creato. Tale identificatore verrà usato in seguito per gestire l'evento;
+\item Dopo averlo creato, il sistema iscrive automaticamente l'utente all'evento;
+\item Al termine della creazione l'evento diventa automaticamente disponibile per qualunque utente volesse esprime la sua disponibilità;
+\end{itemize}
+\item L'applicazione deve permettere agli utenti di poter accedere, visualizzare le informazioni, poter iscriversi ed esprimere le proprie disponibilità per ogni evento:
+\begin{itemize}
+\item L' utente che accede a un evento può visualizzare le disponibilità di tutti gli altri utenti e i commenti già inseriti;
+\item L' utente che accede a un evento può inserire il proprio nome e la disponibilità (si/no);
+\item Nel caso l'evento è stato chiuso può visualizzare i motivi che sono stati eventualmente scelti dall'utente/amministratore di quel evento;
+\item Se l'utente accede all'evento dopo aver effettuato l'accesso, il suo nome e il suo nickname saranno inseriti nell'apposito modulo in automatico;
+\item Se l'utente accede all'evento dopo aver effettuato l'accesso può lasciare un commento e modificare le proprie disponibilità;
+\end{itemize}
+
+\end{enumerate}
+

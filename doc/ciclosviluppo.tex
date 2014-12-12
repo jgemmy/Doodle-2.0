@@ -1,0 +1,171 @@
+\chapter{Diario}
+\section{Diario Doodle 1.0}
+\begin{itemize}
+\item 3 Settembre: 	
+	\begin{itemize}
+			\item Identicazione dei primi dubbi sulle speciche;
+			\item Identicazione e cenni all'utilizzo dei tool: \\
+	
+	\href{https:www.lucidchart.com}{Lucidchart.com} per i diagrammi;
+	\end{itemize}
+	
+\item 4 Settembre:
+	\begin{itemize} 
+		\item Individuazione dei vari scenari possibili.
+		\item Prima stesura dell' Use Case diagram. 
+		
+	 \end{itemize}
+
+\item 10 settembre:
+\begin{itemize} 
+	\item Prodotte le bozze per il Glossario di progetto e diagrammi dei casi d'uso.
+	\item Revisione dei diagrammi dei casi d'uso
+	\item Inizio dei diagrammi delle attività.
+	
+\end{itemize}
+
+\item 14 settembre:
+\begin{itemize} 
+	\item Diagrammi delle attività.
+\end{itemize}
+
+\item 16 settembre:
+\begin{itemize} 
+	\item Sviluppo dei  diagrammi delle attività. 
+	\item Effettuate delle piccole correzzioni sui diagrammi dei casi d'uso.
+	
+\end{itemize}
+
+\item 18 settembre:
+\begin{itemize} 
+	\item Fine dei diagrammi delle attività ed inizio il diagramma delle classi.
+	
+\end{itemize}
+\item 20 settembre:
+\begin{itemize} 
+	\item Diagramma di sequenza.
+	
+\end{itemize}
+\item 21 settembre:
+\begin{itemize} 
+	\item Analisi dei requisiti funzionali.
+	
+\end{itemize}
+
+\item 25 settembre:
+\begin{itemize} 
+	\item Ultima revisione della documentazione , sono stati corretti gli ulrimi errori.
+	
+\end{itemize}
+
+\item 28 settembre:
+\begin{itemize} 
+	\item Prima stesura del progetto.
+	\item Inizio stesura codice e progettazzione dell'interfaccia.
+	
+\end{itemize}
+
+\item 2 ottobre:
+\begin{itemize} 
+	\item Scelta della gestione del db. In un primo momento scelto MYSQL.
+	\item Inizio Stesura codice server.
+	\item Inizio stesura query (file querymethods -> Doodle 1.0)
+	\item Inizio Stesura codice client.
+	
+\end{itemize}
+\item 3...5..8 ottobre:
+\begin{itemize} 
+	\item Continuo la stesura del codice server e client.
+	\item Aggiunte funzioni di controllo.
+	
+\end{itemize}
+
+\item 10 Ottobre
+\begin{itemize} 
+	\item Primi test dell'applicazione.
+	\item Correzione dei bug.
+	
+\end{itemize}
+
+\item 11 Ottobre
+\begin{itemize} 
+	\item Stesura codice del client.
+	\item Nuovi test.
+	
+\end{itemize}
+
+\item 15 Ottobre
+\begin{itemize} 
+	\item Stesura codice del client e server.
+	\item Nuovi test.
+	
+\end{itemize}
+
+\item 15 Ottobre
+\begin{itemize} 
+	\item Debug.
+	\item Nuovi test.
+	
+\end{itemize}
+
+\item 16 Ottobre
+\begin{itemize} 
+	\item Ultimate le ultime modiche sulla parte server e client del progetto.
+	\item Test della applicazione.
+	\item Revisione della documentazione.
+	
+\end{itemize}	
+\end{itemize}
+
+\section{Diario Doodle 2.0}
+Dopo aver scopetro che si consigliava usare MapDb per la gestione del DB ho ripreso Doodle 1.0 per apportare le modifiche richieste. Le modifiche sono state apportate facendo attenzione a non modificare , se non nei casi di obbligo, la parte client side. In seguito il diario del porting a mapdb:\\
+\begin{itemize}
+	\item 1 Novembre: 	
+	\begin{itemize}
+		\item Inzio a pensare a come introdurre MapDB.
+		\item Identicazione di tutte le funzioni necessarie alla gestione del db (openDb(), commit(), rollback(), etc.  )
+	\end{itemize}
+	
+	\item 2...3...4 Novembre: 	
+	\begin{itemize}
+		\item Modifiche alla documentazione.
+		\item Inizio modifiche lato server.
+		\item Creazione ServerDoodle.
+	\end{itemize}
+	\item 5...9 Novembre: 	
+	\begin{itemize}
+		\item Scrittura ServerDoodle.
+	\end{itemize}
+	
+	\item 10 Novembre: 	
+	\begin{itemize}
+		\item Scrittura ServerDoodle.
+		\item Piccole modifiche lato client.
+	\end{itemize}
+	
+	\item 11 Novembre
+	\begin{itemize}
+		\item Modifca ServerDoodle.
+		\item Introdotta nuova grafica.
+	\end{itemize}
+	
+		\item ...15 Novembre
+		\begin{itemize}
+			\item Debug ServerDoodle.
+			\item Nuova grafica.
+			\item Test junit.
+		\end{itemize}
+		
+		\item 17 Novembre
+		\begin{itemize}
+			\item Test junit.
+			\item Rimozione codice inutilizzato.
+		\end{itemize}
+		
+	\end{itemize}
+	
+	
+	
+\chapter{Ciclo di sviluppo}	
+\section{Ciclo di sviluppo}	
+La metodologia suggerita prevede una fase di analisi monolitica, che produca come artefatti una modellazione dei casi d'uso, attività, classi e sequenza e una di realizzazione iterativa ed incrementale ispirata ad una delle varie metodologie agili. In prima fase, quindi, ho sviluppato il Documento di Analisi con i vari diagrammi. In seguito, poi, mi sono dedicato alla progettazione dell'applicazione. Dopodiche mi sono dedicato allo sviluppo della prima release dell'applicazione andando a eliminare i problemi e le incongruenze sorte, risolvendo i problemi ad alto rischio prima e tralasciando quelli banali. Cosi facendo ho avuto modo di consentire un rapido sviluppo di versioni man mano più complete dell'applicazione. Una volta testato il lato server, mediante utilizzo di Junit mi sono dedicatoai test. Infine ho dato spazio all'aspetto grafico curandone i dettagli. Il tutto è stato frequentemente "committato" su github \href{https://github.com/jgemmy/Doodle}{Github} e \href{https://bitbucket.org/jgemmy/doodle}{Bitbucket}.Questa relazione (pdf) è stata scritta in Latex. Caricati i file .tex sui git.

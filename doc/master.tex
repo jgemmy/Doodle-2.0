@@ -1,0 +1,35 @@
+\documentclass [a4paper,12pt]{book}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{float}
+\restylefloat{table,figure}
+\usepackage{url}
+\usepackage[bookmarks,pdftex,
+pdfauthor={Giovanni Ricucci},
+pdftitle={Progetto Ingegneria del Software},
+pdfsubject={Relazione},
+pdfkeywords={},
+pdfproducer={Latex with hyperref},
+pdfcreator={pdflatex}]{hyperref}
+\usepackage{booktabs}
+\title{Doodle: Pianificazione eventi}
+\author{Giovanni Ricucci}
+\date{\today}
+\begin{document}
+\frontmatter
+\maketitle
+\pagestyle{headings}
+\tableofcontents
+\mainmatter
+\include{requisiti}
+\include{scenari}
+\include{diagrammiuso}
+\include{diagrammiattivita}
+\include{diagrammaclassi}
+\include{diagrammasequenza}
+\include{ciclosviluppo}
+\end{document}
